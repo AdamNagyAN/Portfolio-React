@@ -1,0 +1,40 @@
+.skills-container{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    .skillset{
+        display: flex;
+        flex-wrap: wrap;
+        .skill{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 25px 0;
+            width: 50%;
+            text-transform: uppercase;
+            div{
+                width: 80%;
+            }
+            .progressbar{
+                margin: 20px 0;
+                position: relative;
+                height: 15px;
+                background: linear-gradient(to right, #d3cce3, #e9e4f0);
+                border-radius: 30px;
+                .progress{
+                    position: absolute;
+                    height: 15px;
+                    background: linear-gradient(to right, #4D52C2, #57C0E5);
+                    border-radius: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .progressbar{
+        width: 100px;
+    }
+    
+}
