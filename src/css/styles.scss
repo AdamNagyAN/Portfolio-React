@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Rancho&display=swap');
+
+$poppins: 'Poppins', sans-serif;
+$rancho: 'Rancho', cursive;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 12px;
+    font-family: $poppins;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+@import './header';
+
+.rounded-pill a{
+    border-radius: 30px;
+    padding: 7px 14px;
+    font-size: 1rem;
+    background: linear-gradient(90deg,#8462F5, #DC9EEE);
+    color: white;
+}
+
+#home .wrapper{
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 1200px;
+    .welcome{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 2rem;
+        h1{
+            font-weight: 400;
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+    .image{
+        width: 50%;
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .header-div{
+        .menu-toggle{
+            display: block;
+        }
+        .nav-links{
+            position: absolute;
+            background-color: red;
+            top: 0;
+            right: 0;
+            height: 100vh;
+            flex-direction: column;
+            width: 50%;
+        }
+    }
+}

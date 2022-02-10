@@ -1,0 +1,38 @@
+.menu-toggle{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    display: none;
+    .line{
+        background: black;
+        height: 3px;
+        border-radius: 3px;
+        margin: 5px 0;
+        width: 25px;
+    }
+}
+
+header{
+    .header-div{
+        margin: auto;
+        max-width: 1200px;
+        width: 90%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            font-size: 3rem;
+            font-family: $rancho;
+        }
+        .nav-links{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .nav-link{
+                margin: 20px;
+            }
+        }
+    }
+}
