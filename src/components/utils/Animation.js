@@ -12,10 +12,6 @@ export const useScroll = (thresh = 0.4) => {
     return [element, controls];
 }
 
-export const leftAnimation = {
-    hidden: { x: -100, opacity: 0 },
-    show: { x: 0, opacity: 1 }
-}
 
 export const imageAnimation = {
     hidden: {

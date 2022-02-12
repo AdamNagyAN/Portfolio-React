@@ -5,7 +5,7 @@ import Mail from '../icons/mail.svg'
 
 const Footer = () => {
     return (
-        <footer>
+        <footer id="contact">
             <div className="footer-container">
                 <h2>Contact me</h2>
                 <ul className="accounts">

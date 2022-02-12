@@ -37,21 +37,35 @@ a{
 @import './home';
 @import './about';
 @import './skills';
+@import './portfolio';
 @import './footer';
 
 @media screen and (max-width: 756px) {
     .header-div{
+        position: fixed;
+        top: 0;
+        background-color: #fff;
+        overflow-x: hidden;
         .menu-toggle{
             display: block;
         }
         .nav-links{
-            position: absolute;
-            background-color: red;
+            z-index: 1;
+            position: fixed;
             top: 0;
             right: 0;
             height: 100vh;
+            background-color: #fff;
             flex-direction: column;
             width: 50%;
+            transform: translateX(100%);
+            transition: all 0.3s ease;
         }
+        .active{
+            transform: translateX(0%);
+        }
+    }
+    #home .wrapper{
+        margin: 80px auto;
     }
 }
