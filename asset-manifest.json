@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React/static/css/main.dc2745fd.css",
+    "main.js": "/Portfolio-React/static/js/main.98c4ba48.js",
+    "static/js/787.aeca62f9.chunk.js": "/Portfolio-React/static/js/787.aeca62f9.chunk.js",
+    "static/media/Blessed1.png": "/Portfolio-React/static/media/Blessed1.dc80db2c4741cd162dd5.png",
+    "static/media/wrapper_img.svg": "/Portfolio-React/static/media/wrapper_img.ccf21179a57f55e02964b88407fd70a8.svg",
+    "static/media/Man_simple.svg": "/Portfolio-React/static/media/Man_simple.869bf186bd8cbb5876edad1bd5b19f57.svg",
+    "static/media/phone.svg": "/Portfolio-React/static/media/phone.5a75fb251828b718f92e4abbed46106f.svg",
+    "static/media/github.svg": "/Portfolio-React/static/media/github.5132db5f77e3a90a84d178d6447131f7.svg",
+    "index.html": "/Portfolio-React/index.html",
+    "static/media/book_open.svg": "/Portfolio-React/static/media/book_open.a8dcd83d5c5b995f1a6c251774193c38.svg",
+    "static/media/book.svg": "/Portfolio-React/static/media/book.43a39dc6f11ce3537c76d985390b101c.svg",
+    "static/media/grid.svg": "/Portfolio-React/static/media/grid.c717206bb758484e3c48c8c7b5682ac2.svg",
+    "static/media/mail.svg": "/Portfolio-React/static/media/mail.a1ed23289fc6cde71e3ca7ff958f3b3c.svg",
+    "static/media/play.svg": "/Portfolio-React/static/media/play.09eaf849a617780f4a6a6a57321bf87d.svg",
+    "main.dc2745fd.css.map": "/Portfolio-React/static/css/main.dc2745fd.css.map",
+    "main.98c4ba48.js.map": "/Portfolio-React/static/js/main.98c4ba48.js.map",
+    "787.aeca62f9.chunk.js.map": "/Portfolio-React/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc2745fd.css",
+    "static/js/main.98c4ba48.js"
+  ]
+}
